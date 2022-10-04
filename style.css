@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #F2DDB5;
+    background-color: #FFFFFF;
 }
 
 .Home{
@@ -12,7 +12,7 @@ body{
 }
 
 .topnav{
-    background-color:#F2DDB5;
+    background-color:#FFFFFF;
     text-align: right;
     padding: 20px;
 }
@@ -28,7 +28,7 @@ body{
   border: 2px solid black;
   color: black;
   border-radius: 20%;
-  background-color: orange;
+  background-color: rgb(3, 103, 233);
 }
 
 
@@ -48,7 +48,7 @@ body{
 
 
   .About-me{
-    background-color: #F2DDB5;
+    background-color: #FFFFFF;
     width: 200%;
     padding-left: 300px;
   }
@@ -104,11 +104,29 @@ width: 40%;
 
 }
 
+.Grid-container3 {
+  display:grid;
+  margin-top: 80px;
+  grid-template-columns: 1fr
+
+  }
+
+  .Grid-container3 > div {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.About-me2 {
+padding-left: 300px;
+padding-right: 30%;
+
+}
+
 .Grid-container4{
   display:grid;
   grid-template-columns: 300px 1fr 1fr;
-  margin-t
-  op: 80px;
+ margin-top: 80px;
 }
 
 .Grid-container4 > div {
@@ -116,3 +134,17 @@ width: 40%;
   margin-right: auto;
   font-size: 20px;
 }
+
+.project1 {
+background-color: #FFFFFF;
+}
+
+.Project2 {
+background-color: #FFFFFF;
+}
+
+.project3 {
+background-color: #FFFFFF;
+
+}
+
